@@ -15,6 +15,6 @@ logsource:
 detection:
     selection:
         CommandLine:
-            - *cmd /c wscript.exe *\AppData\Local\Temp*/wp-data/*
+            - '*cmd /c wscript.exe *\AppData\Local\Temp*/wp-data/*'
     condition: selection
 level: critical

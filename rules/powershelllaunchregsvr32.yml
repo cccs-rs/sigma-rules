@@ -15,6 +15,6 @@ logsource:
 detection:
     selection:
         CommandLine:
-            - *powershell*regsvr32*
+            - '*powershell*regsvr32*'
     condition: selection
 level: critical

@@ -15,6 +15,6 @@ logsource:
 detection:
     selection:
         CommandLine:
-            - *powershell -c sleep -s *;saps *.exe*
+            - '*powershell -c sleep -s *;saps *.exe*'
     condition: selection
 level: critical

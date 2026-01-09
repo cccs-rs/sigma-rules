@@ -16,10 +16,10 @@ detection:
     selection:
         CommandLine:
             - '*rundll32*.html,DllRegisterServer*'
-            - '*regsvr32*\\*.jpg*
-            - '*regsvr32*\\*.png*
-            - '*regsvr32*\\*.jpeg*
-            - '*regsvr32*\\*.pdf*
+            - '*regsvr32*\\*.jpg*'
+            - '*regsvr32*\\*.png*'
+            - '*regsvr32*\\*.jpeg*'
+            - '*regsvr32*\\*.pdf*'
             - '*regsvr32*\\*.txt*'
     condition: selection
 level: critical
